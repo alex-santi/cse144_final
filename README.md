@@ -22,20 +22,20 @@ Training:
 
 
   COMMANDS:
-
+  ```
   source venv/bin/activate
-
   PYTHONPATH=src python src/train.py
+  ```
 
 Inference:
   Loads ./checkpoints/best_vit_b16.pt, predicts on data/test/,
   and writes ./submission.csv for Kaggle.
 
   COMMANDS:
-  
+  ```
   source venv/bin/activate
-
   PYTHONPATH=src python src/inference.py
+  ```
 
 Model:
   src/model.py — ViTB16Classifier (pretrained ViT-B/16, fine-tuned head)
