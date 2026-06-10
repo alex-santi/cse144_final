@@ -22,7 +22,9 @@ Training:
 
 
   COMMANDS:
+
   source venv/bin/activate
+
   PYTHONPATH=src python src/train.py
 
 Inference:
@@ -30,7 +32,9 @@ Inference:
   and writes ./submission.csv for Kaggle.
 
   COMMANDS:
+  
   source venv/bin/activate
+
   PYTHONPATH=src python src/inference.py
 
 Model:
